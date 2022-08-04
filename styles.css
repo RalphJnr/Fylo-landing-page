@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  margin: 30px 0 30px;
+}
+
+
+
+#white-section {
+  background-color: #fff;
+}
+
+#grey-section {
+  background-color: hsl(240, 75%, 98%);
+}
+
+#purple-section {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+}
+
+#darkblue-section {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.curve-section {
+  width: 100%;
+}
+
+/* nav bar */
+
+.navbar {
+  margin-bottom: 80px;
+}
+
+.container-fluid {
+  padding: 3% 5% 10%;
+}
+
+
+/* illustration images */
+
+
+.illustration-image {
+  width: 100%;
+}
+
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* grey-section */
+
+.grey-container {
+  padding-bottom: 5%;
+}
+
+.grey-section-text {
+  padding-right: 10%;
+}
+
+p.grey-section-text + a:link {
+  color: green;
+}
+
+.remarks {
+  width: 60%;
+  background-color: white;
+  margin: 20px 0 20px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.remarks > p {
+  margin: 6px;
+}
+
+.remarks-text {
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.ceo-image {
+  border-radius: 100%;
+  width: 20px;
+}
+
+
+/* purple section */
+
+.purple-container {
+  padding: 6% 5%;
+}
+
+
+
+/* darkblue section */
+
+#darkblue-section {
+  color: #fff;
+}
+
+#darkblue-section  a {
+  color: white;
+  text-decoration: none;
+}
+
+#darkblue-section  a:hover {
+  color: hsl(238, 22%, 60%);
+}
+
+
+#darkblue-section li {
+  list-style: none;
+}
+
+#darkblue-section ul {
+  line-height: 2.5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+
+
+.icon:hover {
+  color: hsl(238, 22%, 60%);
+
+}
+
+.darkblue-container {
+  padding: 6% 5%;
+}
+
+
+/* buttons */
+.button {
+  margin-right: 10px;
+}
+
+.bottom-button {
+  border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+
+/* media width 800 */
+
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+
+  .illustration-image {
+    width: 100%;
+    margin: 5rem 0 2.5rem;
+  }
+
+  .remarks {
+    width: 90%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .remarks > p {
+    margin: 6px;
+  }
+
+  #darkblue-section {
+    text-align: left;
+  }
+
+  .icon-box {
+    text-align: center;
+  }
+
+}
